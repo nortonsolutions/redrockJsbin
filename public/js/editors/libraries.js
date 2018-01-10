@@ -1,6 +1,6 @@
 var libraries = [
   {
-    'url': '/js/vendor/jquery/3.2.1/jquery.min.js',
+    'url': '/js/vendor/jquery/3.2.1/jquery.js',
     'label': 'jQuery 3.2.1',
     'group': 'jQuery'
   },
@@ -12,7 +12,7 @@ var libraries = [
   {
     'url': [
       '/js/vendor/jquery-ui/1.12.1/jquery-ui.css',
-      '/js/vendor/jquery/3.2.1/jquery.min.js',
+      '/js/vendor/jquery/3.2.1/jquery.js',
       '/js/vendor/jquery-ui/1.12.1/jquery-ui.min.js'
     ],
     'label': 'jQuery UI 1.12.1',
@@ -20,7 +20,7 @@ var libraries = [
   },
   {
     'url': [
-      '/js/vendor/jquery/3.2.1/jquery.min.js',
+      '/js/vendor/jquery/3.2.1/jquery.js',
       '/js/vendor//bootstrap/4.0.0.-beta.3/css/bootstrap.css',
       '/js/vendor/bootstrap/4.0.0.-beta.3/js/bootstrap.js'
     ],
@@ -29,7 +29,7 @@ var libraries = [
   },
   {
     'url': [
-      '/js/vendor/jquery/3.2.1/jquery.min.js',
+      '/js/vendor/jquery/3.2.1/jquery.js',
       '/js/vendor//bootstrap/3.3.7/css/bootstrap.css',
       '/js/vendor/bootstrap/3.3.7/js/bootstrap.js'
     ],

@@ -47,15 +47,15 @@
   },
   "help": {
     "title": "Help",
-    "link": "http://jsbin.com/help",
+    "link": "/help",
     "data": [
       {
-        "title": "Versions: processors & more",
-        "link": "http://jsbin.com/help/versions"
+        "title": "Tips & Keyboard shortcuts",
+        "link": "/help/tips.html"
       },
       {
-        "title": "Delete a bin",
-        "link": "http://jsbin.com/help/delete-a-bin"
+        "title": "FAQ",
+        "link": "/help/faq.html"
       }
     ]
   },

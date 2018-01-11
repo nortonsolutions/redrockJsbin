@@ -5,6 +5,7 @@ public/js/jsbin*.js
 .nodemonignore
 public/js/prod
 !config.default.json
+!config.node.json
 statsd.js
 .allow-devtools-edit
 jsbin.sqlite

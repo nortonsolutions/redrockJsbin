@@ -21,7 +21,7 @@ var libraries = [
   {
     'url': [
       '/js/vendor/jquery/3.2.1/jquery.js',
-      '/js/vendor//bootstrap/4.0.0.-beta.3/css/bootstrap.css',
+      '/js/vendor/bootstrap/4.0.0.-beta.3/css/bootstrap.css',
       '/js/vendor/bootstrap/4.0.0.-beta.3/js/bootstrap.js'
     ],
     'label': 'Bootstrap 4.0.0.beta.3',
@@ -30,11 +30,33 @@ var libraries = [
   {
     'url': [
       '/js/vendor/jquery/3.2.1/jquery.js',
-      '/js/vendor//bootstrap/3.3.7/css/bootstrap.css',
+      '/js/vendor/bootstrap/3.3.7/css/bootstrap.css',
       '/js/vendor/bootstrap/3.3.7/js/bootstrap.js'
     ],
     'label': 'Bootstrap 3.3.7',
     'group': 'Bootstrap'
+  },
+  {
+    'url': [
+      '/js/vendor/mocha/1.9.0/mocha.js',
+      '/js/vendor/mocha/1.9.0/mocha.css'
+    ],
+    'label': 'Mocha 1.9.0',
+    'group': 'Mocha'
+  },
+  {
+    'url': [
+      '/js/vendor/mocha/1.9.0/mocha.js',
+      '/js/vendor/mocha/1.9.0/mocha.css',
+      '/js/vendor/codecamp/bundle.js'
+    ],
+    'label': 'CodeCamp Test Suite',
+    'group': 'CodeCamp Test Suite'
+  },
+  {
+    'url': '/js/vendor/font-awesome/4.7.0/css/font-awesome.min.css',
+    'label': 'Font Awesome 4.7.0',
+    'group': 'Font Awesome'
   }
 ];
 

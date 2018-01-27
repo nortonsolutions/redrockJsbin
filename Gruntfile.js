@@ -18,7 +18,8 @@ module.exports = function (grunt) {
   grunt.registerTask('run', 'Runs JSBin for local development', function (config) {
     var done = this.async(),
         filepath = path.join(__dirname, config || 'config.node.json'),
-        cmd = '[ -e "`which nodemon`" ] && nodemon --inspect . || node --inspect .',
+        // Add "-inspect" to node command to allow debugger inspection
+        cmd = '[ -e "`which nodemon`" ] && nodemon . || node .',
         child;
 
     // Set the config for the node app.

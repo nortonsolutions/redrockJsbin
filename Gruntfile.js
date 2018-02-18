@@ -19,7 +19,8 @@ module.exports = function (grunt) {
     var done = this.async(),
         filepath = path.join(__dirname, config || 'config.node.json'),
         // Add "-inspect" to node command to allow debugger inspection
-        cmd = '[ -e "`which nodemon`" ] && nodemon . || node .',
+        // cmd = '[ -e "`which nodemon`" ] && nodemon --inspect=9230 . || node --inspect=9230 .',
+        cmd = '[ -e "`which nodemon`" ] && nodemon  . || node  .',
         child;
 
     // Set the config for the node app.

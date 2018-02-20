@@ -126,7 +126,9 @@ var getPreparedCode = (function () { // jshint ignore:line
     re.winLoad.lastIndex = 0;
     re.scriptopen.lastIndex = 0;
 
-    return getRenderedCode().then(function (code) {
+    return getRenderedCode().then(function (code) {      
+      
+      if (code) {
       var parts = [],
           html = code.html,
           js = !nojs ? code.javascript : '',
@@ -254,6 +256,9 @@ var getPreparedCode = (function () { // jshint ignore:line
       }
 
       return html;
+    } else {
+      return null;
+    }
     });
   };
 

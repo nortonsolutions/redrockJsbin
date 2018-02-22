@@ -1,60 +1,60 @@
 var libraries = [
   {
-    'url': '/js/vendor/jquery/3.2.1/jquery.js',
+    'url': 'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
     'label': 'jQuery 3.2.1',
     'group': 'jQuery'
   },
   {
-    'url': '/js/vendor/jquery/1.9.1/jquery.min.js',
+    'url': 'http://cc0304/assets/js/jquery/1.9.1/jquery.min.js',
     'label': 'jQuery 1.9.1',
     'group': 'jQuery'
   },
   {
     'url': [
-      '/js/vendor/jquery-ui/1.12.1/jquery-ui.css',
-      '/js/vendor/jquery/3.2.1/jquery.js',
-      '/js/vendor/jquery-ui/1.12.1/jquery-ui.min.js'
+      'http://cc0304/assets/js/jquery-ui/1.12.1/jquery-ui.css',
+      'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
+      'http://cc0304/assets/js/jquery-ui/1.12.1/jquery-ui.min.js'
     ],
     'label': 'jQuery UI 1.12.1',
     'group': 'jQuery UI'
   },
   {
     'url': [
-      '/js/vendor/jquery/3.2.1/jquery.js',
-      '/js/vendor/bootstrap/4.0.0.-beta.3/css/bootstrap.css',
-      '/js/vendor/bootstrap/4.0.0.-beta.3/js/bootstrap.js'
+      'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
+      'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/css/bootstrap.css',
+      'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/js/bootstrap.js'
     ],
     'label': 'Bootstrap 4.0.0.beta.3',
     'group': 'Bootstrap'
   },
   {
     'url': [
-      '/js/vendor/jquery/3.2.1/jquery.js',
-      '/js/vendor/bootstrap/3.3.7/css/bootstrap.css',
-      '/js/vendor/bootstrap/3.3.7/js/bootstrap.js'
+      'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
+      'http://cc0304/assets/js/bootstrap/3.3.7/css/bootstrap.css',
+      'http://cc0304/assets/js/bootstrap/3.3.7/js/bootstrap.js'
     ],
     'label': 'Bootstrap 3.3.7',
     'group': 'Bootstrap'
   },
   {
     'url': [
-      '/js/vendor/mocha/1.9.0/mocha.js',
-      '/js/vendor/mocha/1.9.0/mocha.css'
+      'http://cc0304/assets/js/mocha/1.9.0/mocha.js',
+      'http://cc0304/assets/js/mocha/1.9.0/mocha.css'
     ],
     'label': 'Mocha 1.9.0',
     'group': 'Mocha'
   },
   {
     'url': [
-      '/js/vendor/mocha/1.9.0/mocha.js',
-      '/js/vendor/mocha/1.9.0/mocha.css',
-      '/js/vendor/codecamp/bundle.js'
+      'http://cc0304/assets/js/mocha/1.9.0/mocha.js',
+      'http://cc0304/assets/js/mocha/1.9.0/mocha.css',
+      'http://cc0304/assets/js/codecamp/bundle.js'
     ],
     'label': 'CodeCamp Test Suite',
     'group': 'CodeCamp Test Suite'
   },
   {
-    'url': '/js/vendor/font-awesome/4.7.0/css/font-awesome.min.css',
+    'url': 'http://cc0304/assets/fonts/font-awesome/4.7.0/css/font-awesome.min.css',
     'label': 'Font Awesome 4.7.0',
     'group': 'Font Awesome'
   }

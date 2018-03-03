@@ -21350,7 +21350,7 @@ var FCC_Global =
 	      });
 
 	      reqNum++;
-	      it(reqNum + '. When I click the #submit element, the email is submitted to\n      a static page (use this mock URL:\n      https://www.freecodecamp.com/email-submit) that confirms the email address\n      was entered (and that it posted successfully).', function () {
+	      it(reqNum + '. When I click the #submit element, the email is submitted to\n      a static page (use this mock URL:\n      https://site.com/email-submit) that confirms the email address\n      was entered (and that it posted successfully).', function () {
 	        var emailElem = document.getElementById('email');
 	        var formElem = document.getElementById('form');
 	        _chai.assert.strictEqual(formElem.hasAttribute('action'), true, 'The #form should have an action attribute ');

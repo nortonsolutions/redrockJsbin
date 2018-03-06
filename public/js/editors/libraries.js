@@ -38,17 +38,15 @@ var libraries = [
   },
   {
     'url': [
-      'http://cc0304/assets/js/mocha/1.9.0/mocha.js',
-      'http://cc0304/assets/js/mocha/1.9.0/mocha.css'
+      '/js/vendor/mocha/1.9.0/mocha.js'
     ],
     'label': 'Mocha 1.9.0',
     'group': 'Mocha'
   },
   {
     'url': [
-      'http://cc0304/assets/js/mocha/1.9.0/mocha.js',
-      'http://cc0304/assets/js/mocha/1.9.0/mocha.css',
-      'http://cc0304/assets/js/codecamp/bundle.js'
+      '/js/vendor/mocha/1.9.0/mocha.js',
+      '/js/vendor/codecamp/bundle.js'
     ],
     'label': 'CodeCamp Test Suite',
     'group': 'CodeCamp Test Suite'

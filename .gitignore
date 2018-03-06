@@ -11,4 +11,5 @@ jsbin.sqlite
 node_modules
 public/runner.html
 tmp/*
-.env.*
+.env
+.vscode

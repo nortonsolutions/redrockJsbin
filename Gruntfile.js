@@ -16,11 +16,17 @@ module.exports = function (grunt) {
   //
   //   $ grunt run:config.local.json
   grunt.registerTask('run', 'Runs JSBin for local development', function (config) {
+
+    // Uncomment these to use debugging and a specific port until a better args method can be understood.
+    // process.env.DEBUGGER = true;
+    // process.env.DEBUGGER_PORT = 2930;
+        
+    var inspect = process.env.DEBUGGER && (process.env.DEBUGGER.toUpperCase() === 'TRUE') ? '--inspect' : '';
+    inspect = inspect && process.env.DEBUGGER_PORT ? inspect + "=" + process.env.DEBUGGER_PORT : inspect;
+
     var done = this.async(),
         filepath = path.join(__dirname, config || 'config.node.json'),
-        // Add "-inspect" to node command to allow debugger inspection
-        // cmd = '[ -e "`which nodemon`" ] && nodemon --inspect=9230 . || node --inspect=9230 .',
-        cmd = '[ -e "`which nodemon`" ] && nodemon  . || node  .',
+        cmd = '[ -e "`which nodemon`" ] && nodemon ' + inspect + ' . || node ' + inspect + ' .',
         child;
 
     // Set the config for the node app.

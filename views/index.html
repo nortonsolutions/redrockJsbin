@@ -78,17 +78,11 @@ if(top != self) {
   <a href="#">Load cached copy from <span></span></a>
 </div>
 <script type="template/text" id="profile-template">
-  <a title="@{name}" href="#profile" class="button button-dropdown avatar" id="accountBtn"><picture>
-    <source srcset="{avatar} 1x, {avatar}?&s=58 2x">
-    <img src="{avatar}">
-  </picture> Account</a>
+  <a title="@{name}" href="#profile" class="button button-dropdown avatar" id="accountBtn"> Account</a>
   <div class="dropdown dd-right" id="profile">
     <div class="dropdowncontent">
       <div class="large-gravatar"><object data="{{static}}/images/default-avatar.min.svg?{name}&{{version}}" type="image/svg+xml">
-    <img src="{{static}}/images/default-avatar.min.svg?{{version}}"></object><picture class="large-gravatar">
-    <source srcset="{large_avatar} 1x, {large_avatar}?&s=240 2x">
-    <img class="large-gravatar" src="{large_avatar}">
-  </picture></div>
+    <img src="{{static}}/images/default-avatar.min.svg?{{version}}"></object></div>
       <span class="input" id="username" readonly>
         @{name}<sup class="pro">pro</sup>
       </span>

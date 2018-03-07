@@ -17,7 +17,7 @@ module.exports = function (grunt) {
   //   $ grunt run:config.local.json
   grunt.registerTask('run', 'Runs JSBin for local development', function (config) {
 
-    // Add the follow settings to grunt run for debugger support ie:
+    // Add the follow settings to 'grunt run' for debugger support:
     // $ DEBUGGER=true grunt run
     // or for a specific debug port use:
     // $ DEBUGGER=true DEBUGGER_PORT=2930 grunt run

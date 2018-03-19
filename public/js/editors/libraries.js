@@ -21,7 +21,7 @@ var libraries = [
     'url': [
       'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
       'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/css/bootstrap.css',
-      'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/js/bootstrap.js'
+      'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/js/bootstrap.bundle.js'
     ],
     'label': 'Bootstrap 4.0.0.beta.3',
     'group': 'Bootstrap'

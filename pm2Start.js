@@ -20,7 +20,7 @@ if (!process.env.JSBIN_CONFIG) {
 }
 
 var instances = process.env.INSTANCES || 1;
-var serverName = process.env.SERVER_NAME || 'jsbin';
+var serverName = process.env.PM2_APP_NAME || 'jsbin';
 var maxMemory = process.env.MAX_MEMORY || '390M';
 
 pm2.connect(function() {

@@ -2034,6 +2034,10 @@ ms@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
+msnodesqlv8@//fs01/tutorDevelopers/installs/npm-packages-offline-cache/msnodesqlv8-0.6.6.tgz:
+  version "0.6.6"
+  resolved "//fs01/tutorDevelopers/installs/npm-packages-offline-cache/msnodesqlv8-0.6.6.tgz#6608eaac394a8fa86ec719057b762ab86871639a"
+
 mssql@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/mssql/-/mssql-4.1.0.tgz#5a70e24d751c28bcb9f23acf709c1bdaccc8eae6"

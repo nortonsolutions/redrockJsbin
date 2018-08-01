@@ -173,7 +173,7 @@ CREATE TABLE `sandbox` (
   `reported` datetime DEFAULT NULL,
   `streaming` char(1) COLLATE utf8mb4_unicode_ci DEFAULT 'n',
   `streaming_key` char(32) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `streaming_read_key` char(32) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `streaming_read_key` char(32) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `active_tab` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
   `active_cursor` int(11) NOT NULL,
   `revision` int(11) DEFAULT '1',

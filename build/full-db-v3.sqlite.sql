@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `sandbox` (
   `reported` DATETIME DEFAULT NULL,
   `streaming` VARCHAR(1) DEFAULT 'n',
   `streaming_key` VARCHAR(32),
-  `streaming_read_key` VARCHAR(32),
+  `streaming_read_key` VARCHAR(32) DEFAULT '',
   `active_tab` VARCHAR(10),
   `active_cursor` INTEGER,
   `revision` INTEGER DEFAULT '1',

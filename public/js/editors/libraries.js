@@ -8,32 +8,27 @@ var libraries = [
     'group': 'CodeCamp Test Suite'
   },
   {
-    'url': 'http://cc0304/assets/css/simple-css-reset.css',
+    'url': 'http://codecamp.edu/educationMaterials/frameworks/css/simple-css-reset.css',
     'label': 'Simple CSS Reset',
     'group': 'CSS Reset'
   },
   {
-    'url': 'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/css/bootstrap-reboot.css',
-    'label': 'Bootstrap Reboot',
-    'group': 'CSS Reset'
-  },
-  {
     'url': [
-      'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
-      'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/css/bootstrap.css',
-      'http://cc0304/assets/js/bootstrap/4.0.0.-beta.3/js/bootstrap.bundle.js'
+      'http://codecamp.edu/educationMaterials/frameworks/js/jquery/3.3.1/jquery.js',
+      'http://codecamp.edu/educationMaterials/frameworks/js/bootstrap/4.1.1/css/bootstrap.css',
+      'http://codecamp.edu/educationMaterials/frameworks/js/bootstrap/4.1.1/js/bootstrap.bundle.js'
     ],
-    'label': 'Bootstrap 4.0.0.beta.3',
+    'label': 'Bootstrap 4.1.1',
     'group': 'Bootstrap'
   },
   {
-    'url': 'http://cc0304/assets/fonts/font-awesome/4.7.0/css/font-awesome.min.css',
+    'url': 'http://codecamp.edu/educationMaterials/frameworks/fonts/font-awesome/4.7.0/css/font-awesome.min.css',
     'label': 'Font Awesome 4.7.0',
     'group': 'Font Awesome'
   },
   {
-    'url': 'http://cc0304/assets/js/jquery/3.2.1/jquery.js',
-    'label': 'jQuery 3.2.1',
+    'url': 'http://codecamp.edu/educationMaterials/frameworks/js/jquery/3.3.1/jquery.js',
+    'label': 'jQuery 3.3.1',
     'group': 'jQuery'
   }
 ];

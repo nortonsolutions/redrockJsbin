@@ -1,35 +1,30 @@
 var libraries = [
   {
     'url': [
-      '/js/vendor/mocha/1.9.0/mocha.js',
-      '/js/vendor/codecamp/bundle.js'
+      'http://brickhousecodecamp.org/educationMaterials/frameworks/js/mocha/1.9.0/mocha.js',
+      'http://brickhousecodecamp.org/educationMaterials/frameworks/js/brickhousecodecamp/test-suite.js'
     ],
-    'label': 'CodeCamp Test Suite',
-    'group': 'CodeCamp Test Suite'
+    'label': 'BrickHouse CodeCamp Test Suite',
+    'group': 'BrickHouse CodeCamp Test Suite'
   },
   {
-    'url': 'http://codecamp.edu/educationMaterials/frameworks/css/simple-css-reset.css',
+    'url': 'http://brickhousecodecamp.org/educationMaterials/frameworks/css/simple-css-reset.css',
     'label': 'Simple CSS Reset',
     'group': 'CSS Reset'
   },
   {
     'url': [
-      'http://codecamp.edu/educationMaterials/frameworks/js/jquery/3.3.1/jquery.js',
-      'http://codecamp.edu/educationMaterials/frameworks/js/bootstrap/4.1.1/css/bootstrap.css',
-      'http://codecamp.edu/educationMaterials/frameworks/js/bootstrap/4.1.1/js/bootstrap.bundle.js'
+      'http://brickhousecodecamp.org/educationMaterials/frameworks/js/jquery/3.3.1/jquery.js',
+      'http://brickhousecodecamp.org/educationMaterials/frameworks/js/bootstrap/4.1.3/css/bootstrap.css',
+      'http://brickhousecodecamp.org/educationMaterials/frameworks/js/bootstrap/4.1.3/js/bootstrap.bundle.js'
     ],
-    'label': 'Bootstrap 4.1.1',
+    'label': 'Bootstrap 4.1.3',
     'group': 'Bootstrap'
   },
   {
-    'url': 'http://codecamp.edu/educationMaterials/frameworks/fonts/font-awesome/4.7.0/css/font-awesome.min.css',
+    'url': 'http://brickhousecodecamp.org/educationMaterials/frameworks/fonts/font-awesome/4.7.0/css/font-awesome.min.css',
     'label': 'Font Awesome 4.7.0',
     'group': 'Font Awesome'
-  },
-  {
-    'url': 'http://codecamp.edu/educationMaterials/frameworks/js/jquery/3.3.1/jquery.js',
-    'label': 'jQuery 3.3.1',
-    'group': 'jQuery'
   }
 ];
 

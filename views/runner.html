@@ -21,7 +21,7 @@
   }
 </style>
 <div id="sandbox-wrapper"></div>
-{{#if settings.is_production}}
+<!-- {{#if settings.is_production}}
   <script>
   if ('serviceWorker' in navigator && location.origin.indexOf('null') !== -1) {
     navigator.serviceWorker.register('{{root}}/sw-runner.js', { scope: '/' });
@@ -30,7 +30,16 @@
   <script src="{{static}}/js/prod/runner-{{settings.version}}.min.js"></script>
   {{{analytics}}}
 {{else}}
-  {{#scripts}}<script src="{{static}}{{.}}"></script>
+  {{#scripts}}<script src="{{../static}}{{.}}"></script>
   {{/scripts}}
-{{/if}}
+{{/if}} -->
 
+<script src="http://localhost:3000/js/vendor/polyfills.js"></script>
+<script src="http://localhost:3000/js/vendor/stringify.js"></script>
+<script src="http://localhost:3000/js/runner/utils.js"></script>
+<script src="http://localhost:3000/js/vendor/loop-protect.min.js"></script>
+<script src="http://localhost:3000/js/runner/proxy-console.js"></script>
+<script src="http://localhost:3000/js/runner/processor.js"></script>
+<script src="http://localhost:3000/js/runner/sandbox.js"></script>
+<script src="http://localhost:3000/js/runner/runner.js"></script>
+<script src="http://localhost:3000/js/runner/index.js"></script>

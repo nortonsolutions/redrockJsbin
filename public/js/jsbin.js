@@ -179,11 +179,15 @@ if (storedSettings === 'undefined' || jsbin.embed) {
   }
 });
 
-if (jsbin.user && jsbin.user.name) {
-  jsbin.settings = $.extend(true, {}, jsbin.user.settings, jsbin.settings);
-  if (jsbin.user.settings.font) {
-    jsbin.settings.font = parseInt(jsbin.user.settings.font, 10);
-  }
+// if (jsbin.user && jsbin.user.name) {
+//   jsbin.settings = $.extend(true, {}, jsbin.user.settings, jsbin.settings);
+//   if (jsbin.user.settings.font) {
+//     jsbin.settings.font = parseInt(jsbin.user.settings.font, 10);
+//   }
+
+if (jsbin.user && jsbin.user.name && jsbin.user.settings && jsbin.user.settings.reloaded) {
+      store.localStorage.setItem('settings', JSON.stringify(jsbin.user.settings));
+      jsbin.settings = jsbin.user.settings;  
 } else {
   // In all cases localStorage takes precedence over user settings so users can
   // configure it from the console and overwrite the server delivered settings

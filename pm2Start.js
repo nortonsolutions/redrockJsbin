@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var pm2GlobalPath = path.resolve(process.env.APPDATA, 'npm/node_modules/pm2');
+var pm2GlobalPath = path.resolve(process.env.APPDATA, 'pm2');
 var pm2 = require(pm2GlobalPath);
 
 if (!process.env.JSBIN_CONFIG) {
